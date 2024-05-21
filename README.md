@@ -25,4 +25,29 @@ Using Terraform to provision an EC2 instance on Amazon Web Services (AWS)
 
 5. Create the main.tf file for the terraform configuration 
    
-   ```touch main.tf```
+```$ touch main.tf```
+
+6. Paste the terraform configuration
+  ```terraform {
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "5.50.0"
+    }
+  }
+
+  required_version = ">= 1.2.0"
+}
+
+provider "aws" {
+  region = "us-west-2"
+}
+
+resource "aws_instance" "app_server" {
+  ami           = "ami-08d70e59c07c61a3a"
+  instance_type = "t2.micro"
+
+  tags = {
+    Name = "ExampleAppServerInstance"
+  }
+}```

@@ -5,7 +5,7 @@ Using Terraform to provision an EC2 instance on Amazon Web Services (AWS)
 ```Terraform CLI (1.2.0+)``` ```Gitbash``` ```Chocolatey``` ```VSCode``` ```The AWS CLI```
 
 
-# Action
+## Action
 1. Initially download and install ```Gitbash``` ```Chocolatey``` ```VSCode``` ```The AWS CLI```
    
    

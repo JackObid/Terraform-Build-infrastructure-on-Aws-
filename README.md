@@ -30,8 +30,8 @@ Using Terraform to provision an EC2 instance on Amazon Web Services (AWS)
 
 
 6. Paste the terraform configuration
-  
-  ```terraform {
+  ```
+  terraform {
   required_providers {
     aws = {
       source  = "hashicorp/aws"
@@ -54,7 +54,7 @@ resource "aws_instance" "app_server" {
     Name = "ExampleAppServerInstance"
   }
 }
-
+```
 
 
 7. Save and Initialize the directory

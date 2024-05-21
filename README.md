@@ -64,3 +64,9 @@ resource "aws_instance" "app_server" {
 8. Format and validate the configuration
 
 ```$ terraform fmt```
+
+```$ terraform validate```
+
+10. Create the infrastructure on Aws with the terraform apply command
+    
+```$ terraform apply```

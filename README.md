@@ -51,3 +51,6 @@ resource "aws_instance" "app_server" {
     Name = "ExampleAppServerInstance"
   }
 }```
+
+7. Save and Initialize the directory
+```$ terraform init```

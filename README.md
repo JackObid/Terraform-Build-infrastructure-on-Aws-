@@ -23,6 +23,6 @@ Using Terraform to provision an EC2 instance on Amazon Web Services (AWS)
 
 ```$ cd terraform-folder```
 
-5. Create the main.tf
+5. Create the main.tf file for the terraform configuration 
    
    ```touch main.tf```

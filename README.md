@@ -78,6 +78,9 @@ resource "aws_instance" "app_server" {
     
 ```$ terraform apply```
 
+10. Type ```yes``` at the confirmation prompt to proceed
+
 
 > [!NOTE]
 > Use can use VSCode or Gitbash to apply the terraform as long as your in the folder.
+> 

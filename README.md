@@ -8,9 +8,11 @@ Using Terraform to provision an EC2 instance on Amazon Web Services (AWS)
 # Action
 1. Initially download and install ```Gitbash``` ```Chocolatey``` ```VSCode``` ```The AWS CLI```
    
+   
 2. Install terraform using Chocolately
    
  ``` $ choco install terraform ```
+ 
 
 3. Use your IAM credentials to authenticate the Terraform AWS provider by setting up the AWS_ACCESS_KEY_ID environment variable.
 
@@ -18,11 +20,13 @@ Using Terraform to provision an EC2 instance on Amazon Web Services (AWS)
 
 ```$ export AWS_SECRET_ACCESS_KEY=```
 
+
 4. Create the test folder
    
 ```$ mkdir terraform-folder```
 
 ```$ cd terraform-folder```
+
 
 5. Create the main.tf file for the terraform configuration 
    
@@ -61,12 +65,14 @@ resource "aws_instance" "app_server" {
 
 ```$ terraform init```
 
+
 8. Format and validate the configuration
 
 ```$ terraform fmt```
 
 ```$ terraform validate```
 
-10. Create the infrastructure on Aws with the terraform apply command
+
+9. Create the infrastructure on Aws with the terraform apply command
     
 ```$ terraform apply```

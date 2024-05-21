@@ -77,3 +77,7 @@ resource "aws_instance" "app_server" {
 9. Create the infrastructure on Aws with the terraform apply command
     
 ```$ terraform apply```
+
+
+> [!NOTE]
+> Use can use VSCode or Gitbash to apply the terraform as long as your in the folder.

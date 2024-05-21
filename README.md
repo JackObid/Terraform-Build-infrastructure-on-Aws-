@@ -82,5 +82,5 @@ resource "aws_instance" "app_server" {
 
 
 > [!NOTE]
-> Use can use VSCode or Gitbash to apply the terraform as long as your in the folder.
+> You can use VSCode or Gitbash to apply the terraform as long as your in the folder.
 > 

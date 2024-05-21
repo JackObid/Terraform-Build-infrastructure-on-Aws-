@@ -1,11 +1,11 @@
 # Using Terraform to build-Infrastructure-on-Aws-
 Using Terraform to provision an EC2 instance on Amazon Web Services (AWS)
 
-# Prerequisites
+## Prerequisites
 ```Terraform CLI (1.2.0+)``` ```Gitbash``` ```Chocolatey``` ```VSCode``` ```The AWS CLI```
 
 
-## Action
+### Actions
 1. Initially download and install ```Gitbash``` ```Chocolatey``` ```VSCode``` ```The AWS CLI```
    
    
@@ -33,7 +33,7 @@ Using Terraform to provision an EC2 instance on Amazon Web Services (AWS)
 ```$ touch main.tf```
 
 
-6. Paste the terraform configuration
+6. Open VSCode to Paste and update the terraform configuration
   ```
   terraform {
   required_providers {

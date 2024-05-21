@@ -37,27 +37,30 @@ Using Terraform to provision an EC2 instance on Amazon Web Services (AWS)
       source  = "hashicorp/aws"
       version = "5.50.0"
     }
-  }```
+  }
 
- ```required_version = ">= 1.2.0"
-}```
+  required_version = ">= 1.2.0"
+}
 
-```provider "aws" {
+provider "aws" {
   region = "us-west-2"
-}```
+}
 
-```resource "aws_instance" "app_server" {
+resource "aws_instance" "app_server" {
   ami           = "ami-08d70e59c07c61a3a"
-  instance_type = "t2.micro"```
+  instance_type = "t2.micro"
 
-  ```tags = {
+  tags = {
     Name = "ExampleAppServerInstance"
   }
 }```
 
 
+
 7. Save and Initialize the directory
+
 ```$ terraform init```
 
 8. Format and validate the configuration
+
 ```$ terraform fmt```

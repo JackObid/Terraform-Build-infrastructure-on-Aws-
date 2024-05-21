@@ -5,6 +5,7 @@ Using Terraform to provision an EC2 instance on Amazon Web Services (AWS)
 ```Terraform CLI (1.2.0+)``` ```Gitbash``` ```Chocolatey``` ```VSCode``` ```The AWS CLI```
 
 
+# Action
 1. Initially download and install ```Gitbash``` ```Chocolatey``` ```VSCode``` ```The AWS CLI```
    
 2. Install terraform using Chocolately
@@ -26,6 +27,7 @@ Using Terraform to provision an EC2 instance on Amazon Web Services (AWS)
 5. Create the main.tf file for the terraform configuration 
    
 ```$ touch main.tf```
+
 
 6. Paste the terraform configuration
   ```terraform {

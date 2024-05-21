@@ -10,3 +10,9 @@ Using Terraform to provision an EC2 instance on Amazon Web Services (AWS)
 2. Install terraform using Chocolately
    
  ``` $ choco install terraform ```
+
+3. Use your IAM credentials to authenticate the Terraform AWS provider, set the AWS_ACCESS_KEY_ID environment variable.
+
+```$ export AWS_ACCESS_KEY_ID=```
+
+```$ export AWS_SECRET_ACCESS_KEY=```
